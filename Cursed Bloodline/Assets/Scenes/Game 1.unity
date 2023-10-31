@@ -437,7 +437,7 @@ Transform:
   m_GameObject: {fileID: 220027065}
   serializedVersion: 2
   m_LocalRotation: {x: 0.40316924, y: 1.1e-44, z: -6e-45, w: 0.9151254}
-  m_LocalPosition: {x: -1.68e-43, y: 10.36901, z: -18.219091}
+  m_LocalPosition: {x: -1.65e-43, y: 10.369008, z: -23.29909}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1076,7 +1076,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 409293878594189146, guid: 355e44919fa6bf1458467258f13ead3c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -11.13
+      value: -16.21
       objectReference: {fileID: 0}
     - target: {fileID: 409293878594189146, guid: 355e44919fa6bf1458467258f13ead3c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1496,9 +1496,9 @@ GameObject:
   - component: {fileID: 1376774026}
   - component: {fileID: 1376774029}
   - component: {fileID: 1376774031}
-  - component: {fileID: 1376774030}
   - component: {fileID: 1376774033}
   - component: {fileID: 1376774032}
+  - component: {fileID: 1376774034}
   m_Layer: 12
   m_Name: Musuh
   m_TagString: Untagged
@@ -1515,7 +1515,7 @@ Transform:
   m_GameObject: {fileID: 1376774024}
   serializedVersion: 2
   m_LocalRotation: {x: 0.0022175512, y: -0.0009976126, z: 0.0013982262, w: 0.99999607}
-  m_LocalPosition: {x: -5.49, y: 2.12, z: -4.69}
+  m_LocalPosition: {x: -7.62, y: 2.12, z: 5.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1564,7 +1564,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 174229feefca3984ab269af282c46676, type: 2}
+  - {fileID: 2100000, guid: 29e4260da4251c54d9b3cb6713c3a456, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1621,22 +1621,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 116
   m_CollisionDetection: 0
---- !u!114 &1376774030
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1376774024}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-    _objectReferences:
-    - {fileID: 11400000, guid: 9a789824226dec144a0c430a835f9432, type: 2}
 --- !u!114 &1376774031
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1650,11 +1634,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"MovePosition","value":{"x":-2.0,"y":0.0,"z":-5.0,"$type":"UnityEngine.Vector3"},"typeHandle":{"Identification":"UnityEngine.Vector3,
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"MovePosition","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"typeHandle":{"Identification":"UnityEngine.Vector3,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"MoveSpeed","value":{"$content":5.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"MovementVector","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"typeHandle":{"Identification":"UnityEngine.Vector3,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"LastMoveDir","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"typeHandle":{"Identification":"UnityEngine.Vector3,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"TitikSampeLokasi","value":{"$content":6.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"TitikSampeLokasi","value":{"$content":2.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"PatrolPositionList","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[UnityEngine.Transform,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.Transform,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"DeteksiRadiusPlayer","value":{"$content":10.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!95 &1376774032
@@ -1694,6 +1682,22 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: cc7f35b67f07f80409f17381e45f1cc3, type: 2}
+--- !u!114 &1376774034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1376774024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efe58df89b5b74a97a123b5ed2b70422, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: fb0b28070f0617b4da110bae3503a243, type: 2}
 --- !u!4 &1387718320 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 21924b3488c1c76458617470631b8d3e, type: 3}
@@ -2593,7 +2597,7 @@ Transform:
   m_GameObject: {fileID: 2130437311}
   serializedVersion: 2
   m_LocalRotation: {x: 0.40316924, y: 1.1e-44, z: -6e-45, w: 0.9151254}
-  m_LocalPosition: {x: -1.68e-43, y: 10.36901, z: -18.219091}
+  m_LocalPosition: {x: -1.65e-43, y: 10.369008, z: -23.29909}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
