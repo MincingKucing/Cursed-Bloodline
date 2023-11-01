@@ -906,10 +906,10 @@ RectTransform:
   - {fileID: 8806017004734646797}
   - {fileID: 7982598338618764959}
   - {fileID: 2517961886802892086}
+  - {fileID: 6582396846221167393}
   - {fileID: 6148931650279175942}
   - {fileID: 8195062222917272662}
   - {fileID: 6630455595368236534}
-  - {fileID: 6582396846221167393}
   m_Father: {fileID: 3062234157659789901}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -9569,7 +9569,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2110805696865582215}
   m_Layer: 0
-  m_Name: Lvl UI
+  m_Name: LvlUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9812,7 +9812,7 @@ GameObject:
   - component: {fileID: 5300552162389740096}
   - component: {fileID: 2371582118458164226}
   m_Layer: 5
-  m_Name: ExpText
+  m_Name: LvlText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26540,7 +26540,7 @@ RectTransform:
   m_GameObject: {fileID: 7945734247636366038}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.30173, y: 0.30173, z: 0.30173}
+  m_LocalScale: {x: 0.219056, y: 0.219056, z: 0.219056}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7188539838421324282}
@@ -26548,7 +26548,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -25.9}
+  m_AnchoredPosition: {x: 0, y: -24.6}
   m_SizeDelta: {x: 80, y: 65}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3818606993651285343
