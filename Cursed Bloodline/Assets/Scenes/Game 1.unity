@@ -7845,6 +7845,18 @@ PrefabInstance:
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 230049860}
+    - target: {fileID: 4395106306849053484, guid: 249afd758da55e940afca5cd6c33b949, type: 3}
+      propertyPath: m_Name
+      value: LvlUI
+      objectReference: {fileID: 0}
+    - target: {fileID: 4395106306849053484, guid: 249afd758da55e940afca5cd6c33b949, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4645985149386270380, guid: 249afd758da55e940afca5cd6c33b949, type: 3}
+      propertyPath: m_Name
+      value: LvlText
+      objectReference: {fileID: 0}
     - target: {fileID: 5051731913363995885, guid: 249afd758da55e940afca5cd6c33b949, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -7949,6 +7961,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 230049860}
+    - target: {fileID: 7921998448155965549, guid: 249afd758da55e940afca5cd6c33b949, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8279738043522723913, guid: 249afd758da55e940afca5cd6c33b949, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
