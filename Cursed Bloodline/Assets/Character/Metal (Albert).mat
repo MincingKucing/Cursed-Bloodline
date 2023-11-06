@@ -12,13 +12,15 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
+  - _ALPHATEST_ON
   - _EMISSION
   m_InvalidKeywords: []
   m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
+  m_CustomRenderQueue: 2450
+  stringTagMap:
+    RenderType: TransparentCutout
   disabledShaderPasses: []
   m_LockedProperties: 
   m_SavedProperties:
@@ -63,14 +65,14 @@ Material:
     m_Ints: []
     m_Floats:
     - _BumpScale: 1
-    - _Cutoff: 0.5
+    - _Cutoff: 0.52
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _GlossMapScale: 1
-    - _Glossiness: 0.4472136
+    - _Glossiness: 0.69
     - _GlossyReflections: 1
-    - _Metallic: 1
-    - _Mode: 0
+    - _Metallic: 0.51
+    - _Mode: 1
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
@@ -80,5 +82,5 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 4, g: 4, b: 4, a: 1}
   m_BuildTextureStacks: []
