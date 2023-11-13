@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Ground
   - Weapon
+  - MusuhKecil
   layers:
   - Default
   - TransparentFX
