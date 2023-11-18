@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4141057357859510949}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: pfWinParticles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 2543243848251509747}
   - component: {fileID: 7449047389260699401}
   - component: {fileID: 5118999722410064161}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Particles
   m_TagString: Untagged
   m_Icon: {fileID: 0}

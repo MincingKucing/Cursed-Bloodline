@@ -7,6 +7,7 @@ TagManager:
   - Ground
   - Weapon
   - MusuhKecil
+  - TriggerSong
   layers:
   - Default
   - TransparentFX
@@ -22,9 +23,9 @@ TagManager:
   - Jembatan
   - Musuh
   - Hazards
-  - 
-  - 
-  - 
+  - Minimap
+  - Player
+  - VFX
   - 
   - 
   - 
