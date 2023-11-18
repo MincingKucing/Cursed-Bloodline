@@ -1,0 +1,329 @@
+fileFormatVersion: 2
+guid: 7ad77414a8fedc44b97affc1cbd46047
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: f3800ea6bb1fd824aac0a9ca531dc967, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rope
+    second: {fileID: 2100000, guid: 2fc94fb3a1fed7541b5a81df19f10949, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rope.002
+    second: {fileID: 2100000, guid: b139d5ff2c958664bb557db93666591a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rope.005
+    second: {fileID: 2100000, guid: 6f39206d23db29e4693258a85fa4dafe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rope.006
+    second: {fileID: 2100000, guid: 7684f1162ffb01d4684e1b2e86e98772, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rope.009
+    second: {fileID: 2100000, guid: 4ced21f54b68b6b46b299411bcc5cc30, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rope.010
+    second: {fileID: 2100000, guid: 4746a8557f2480940be69ad71bfdb5cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rope.013
+    second: {fileID: 2100000, guid: e5cffeb0b343c384fb401d94b0a3ce25, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rope.014
+    second: {fileID: 2100000, guid: b43cbc81758efaf449296672e09f1614, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Thai_Stony_teflebxk
+    second: {fileID: 2100000, guid: 03e9e66badcc0c041b2eda31febbfb47, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Trank
+    second: {fileID: 2100000, guid: 257798fa7cffe5f47a7b2bf148391b0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Trank.002
+    second: {fileID: 2100000, guid: 28f043ed19a94a74785a224f409095f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Trank.003
+    second: {fileID: 2100000, guid: e46f4c9eec9a90346943994b8f687977, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Trank.004
+    second: {fileID: 2100000, guid: 3921fd9f97bde6f4a84f2a21ba205d49, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Trank.005
+    second: {fileID: 2100000, guid: 35150f1756444964c90a97e1e5fd4755, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Trank.006
+    second: {fileID: 2100000, guid: dbd8955e2290c3d46bdd658c6a39d61f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Trank.007
+    second: {fileID: 2100000, guid: d75a9423d21a13e4699398fae5904f12, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Trank.008
+    second: {fileID: 2100000, guid: 5a8f32eefc70eef44be62d194ad4cc88, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Trank.009
+    second: {fileID: 2100000, guid: 69ecb9a544cc72b409230e0bc71c888e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Trank.010
+    second: {fileID: 2100000, guid: 4e7e274c30df7e14f971bd04967f0d2a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Trank.011
+    second: {fileID: 2100000, guid: 425e9bca4a2f05148a04f7de2fa5bd9f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Trank.012
+    second: {fileID: 2100000, guid: 0d9fe281f690bdb44b8a36100ef92fc6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tree_Bark_vimmdcofw
+    second: {fileID: 2100000, guid: d14c91c922cb6d94894e0d0ac83765e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tree_Bark_vimmdcofw.001
+    second: {fileID: 2100000, guid: 9ee44daaac8016742839a518108337c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tree_Bark_vimmdcofw.002
+    second: {fileID: 2100000, guid: f86e26a61c1d5f84f8272ad0f4aa4c64, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tree_Bark_vimmdcofw.003
+    second: {fileID: 2100000, guid: 78a990005d2bfe343b7a406dd8e95002, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tree_Bark_vimmdcofw.004
+    second: {fileID: 2100000, guid: 9db6bb87d58be644fba47ccbbb52b654, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tree_Bark_vimmdcofw.005
+    second: {fileID: 2100000, guid: 3a21905902bed93439245b642f2101bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tree_Bark_vimmdcofw.006
+    second: {fileID: 2100000, guid: 767d4da14a7a2924982fca0d64508e88, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tree_Bark_vimmdcofw.007
+    second: {fileID: 2100000, guid: 3d1764b5c6a04b24a8674e779f4b14dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tree_Bark_vimmdcofw.008
+    second: {fileID: 2100000, guid: 9a5ed399bc6fd3b4ab61bb14e57c831f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tree_Bark_vimmdcofw.009
+    second: {fileID: 2100000, guid: 55bd5544b6b58604f96a06ebacd4d38b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tree_Bark_vimmdcofw.010
+    second: {fileID: 2100000, guid: b434b56feac34af45b6aa38fb1c20439, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tree_tex.004
+    second: {fileID: 2100000, guid: 73ed328ec8b5849479b37d60ec05a1da, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Rope_basecolor
+    second: {fileID: 2800000, guid: c501b144eed7be84999cd1b5864b2b0d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Rope_normal
+    second: {fileID: 2800000, guid: 6ae5cf6cb29a99c4bae70fd5e1dc8d40, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Rope_roughness
+    second: {fileID: 2800000, guid: 739885da186417c4699c009af1283d17, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Trank_baseColor
+    second: {fileID: 2800000, guid: 596327720c1f93e4f9271e0288e7f80b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Trank_normal
+    second: {fileID: 2800000, guid: 0dfc477aea6f0154b8c25c44f62c09ea, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tree_tex_baseColor
+    second: {fileID: 2800000, guid: 5acb8d603ea260e48864c9d349033ac9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: teflebxk_2K_Normal
+    second: {fileID: 2800000, guid: 81c833b77b3515548a2579f86c5f1046, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: teflebxk_2K_Roughness
+    second: {fileID: 2800000, guid: 2a181b33ce2a89540b94ceca6070dcb5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: vimmdcofw_2K_Normal
+    second: {fileID: 2800000, guid: 06ee1fb80d3b67149bcadc0633b17e8c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: vimmdcofw_2K_Roughness
+    second: {fileID: 2800000, guid: c6ac50913f7c79e42aa717c538ef3615, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
