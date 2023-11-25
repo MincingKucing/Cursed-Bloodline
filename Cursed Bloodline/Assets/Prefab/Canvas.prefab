@@ -14393,7 +14393,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &6592682263047297963
 RectTransform:
   m_ObjectHideFlags: 0
@@ -35303,6 +35303,7 @@ GameObject:
   - component: {fileID: 2072472722060290386}
   - component: {fileID: 4001326952360664868}
   - component: {fileID: 4781131393237778699}
+  - component: {fileID: 8653718966193700201}
   m_Layer: 5
   m_Name: UIDarahKrisis
   m_TagString: Untagged
@@ -35362,7 +35363,28 @@ MonoBehaviour:
   _data:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
-    - {fileID: 11400000, guid: 67629164acbbd0a448523d32c1a34dc6, type: 2}
+    - {fileID: 11400000, guid: 84c582eab1bcbbd4da63813c154cc7ce, type: 2}
+--- !u!95 &8653718966193700201
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6248349249695469163}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0ac1d39065028214eb1b09bbed67aef0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &6433556931697377426
 GameObject:
   m_ObjectHideFlags: 0
@@ -45647,9 +45669,9 @@ GameObject:
   - component: {fileID: 2012595070551429848}
   - component: {fileID: 714084835995139828}
   - component: {fileID: 1629018435994927867}
-  - component: {fileID: 3796041823420623762}
+  - component: {fileID: 6877024698376289857}
   m_Layer: 5
-  m_Name: GambarFrameMati
+  m_Name: GambarKeadaanKrisis
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45712,7 +45734,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!95 &3796041823420623762
+--- !u!95 &6877024698376289857
 Animator:
   serializedVersion: 5
   m_ObjectHideFlags: 0
@@ -45722,7 +45744,7 @@ Animator:
   m_GameObject: {fileID: 6795068532891271599}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 7b0b35b0fda88a446b3b8d71f45844f3, type: 2}
+  m_Controller: {fileID: 9100000, guid: 0ac1d39065028214eb1b09bbed67aef0, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

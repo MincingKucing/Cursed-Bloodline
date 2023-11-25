@@ -39835,7 +39835,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 3.966667
+        time: 3.9666667
         value: 0.6443069
         inSlope: -0.7301058
         outSlope: -0.7301058
@@ -90727,7 +90727,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 3.966667
+        time: 3.9666667
         value: 0.6443069
         inSlope: -0.7301058
         outSlope: -0.7301058
@@ -100607,7 +100607,28 @@ AnimationClip:
   m_Events:
   - time: 0
     functionName: TriggerAnimationEvent
-    data: UltiSound
+    data: SuaraAlbertUlti
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.06666667
+    functionName: TriggerAnimationEvent
+    data: UltiAntisipasiMulai
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.26666668
+    functionName: TriggerAnimationEvent
+    data: SuaraEfekUlti
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 2.4
+    functionName: TriggerAnimationEvent
+    data: UltiAntisipasiHabis
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
@@ -100615,13 +100636,6 @@ AnimationClip:
   - time: 2.4666667
     functionName: TriggerAnimationEvent
     data: KeluarUlti
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
-  - time: 2.6
-    functionName: TriggerAnimationEvent
-    data: UltiSound1
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
