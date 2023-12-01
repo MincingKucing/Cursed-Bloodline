@@ -115,7 +115,6 @@ GameObject:
   - component: {fileID: 3346207872984500238}
   - component: {fileID: 5834743479255247009}
   - component: {fileID: 3099499875074559368}
-  - component: {fileID: 800236800776248623}
   - component: {fileID: 1880090868845215315}
   - component: {fileID: 3236326535357411272}
   - component: {fileID: 8641088003841136515}
@@ -234,7 +233,7 @@ MonoBehaviour:
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"MovementVector","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"typeHandle":{"Identification":"UnityEngine.Vector3,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"LastMoveDir","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"typeHandle":{"Identification":"UnityEngine.Vector3,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"TitikSampeLokasi","value":{"$content":2.5,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"DeteksiRadiusPlayer","value":{"$content":20.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"DeteksiRadiusPlayer","value":{"$content":50.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"PatrolPositionList","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[UnityEngine.Transform,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.Transform,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
@@ -246,22 +245,6 @@ MonoBehaviour:
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"MaxHealth","value":{"$content":1,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
---- !u!114 &800236800776248623
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6043703194423707580}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-    _objectReferences:
-    - {fileID: 11400000, guid: fddd4d34f35f61c40a468aab2570d9f7, type: 2}
 --- !u!114 &1880090868845215315
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -779,7 +762,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -5671910290767253545, guid: edb57d988bfdd6e44bab9dbca899a0a1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.067795746
+      value: 0.06779506
       objectReference: {fileID: 0}
     - target: {fileID: -5671910290767253545, guid: edb57d988bfdd6e44bab9dbca899a0a1, type: 3}
       propertyPath: m_LocalPosition.y
@@ -787,15 +770,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -5671910290767253545, guid: edb57d988bfdd6e44bab9dbca899a0a1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.82610947
+      value: -0.8261095
       objectReference: {fileID: 0}
     - target: {fileID: -5671910290767253545, guid: edb57d988bfdd6e44bab9dbca899a0a1, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.96962947
+      value: 0.9696294
       objectReference: {fileID: 0}
     - target: {fileID: -5671910290767253545, guid: edb57d988bfdd6e44bab9dbca899a0a1, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.24206617
+      value: 0.24206619
       objectReference: {fileID: 0}
     - target: {fileID: -5671910290767253545, guid: edb57d988bfdd6e44bab9dbca899a0a1, type: 3}
       propertyPath: m_LocalRotation.y
@@ -803,7 +786,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -5671910290767253545, guid: edb57d988bfdd6e44bab9dbca899a0a1, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.0023858044
+      value: 0.0023858084
       objectReference: {fileID: 0}
     - target: {fileID: -5567499957886489658, guid: edb57d988bfdd6e44bab9dbca899a0a1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1607,7 +1590,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8879528566716807029, guid: edb57d988bfdd6e44bab9dbca899a0a1, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -1.5612511e-17
+      value: 2.2204458e-16
       objectReference: {fileID: 0}
     - target: {fileID: 8957272431402484473, guid: edb57d988bfdd6e44bab9dbca899a0a1, type: 3}
       propertyPath: m_LocalPosition.x
