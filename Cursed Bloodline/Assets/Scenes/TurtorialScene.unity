@@ -895,7 +895,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Yes
+  m_text: Already
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1fe19b5a78cf8d943891430be51d80f4, type: 2}
   m_sharedMaterial: {fileID: -5945346775434313019, guid: 1fe19b5a78cf8d943891430be51d80f4, type: 2}
@@ -20292,7 +20292,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Click Q to Heal
+  m_text: Click R to Ulti
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1fe19b5a78cf8d943891430be51d80f4, type: 2}
   m_sharedMaterial: {fileID: -5945346775434313019, guid: 1fe19b5a78cf8d943891430be51d80f4, type: 2}
